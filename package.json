@@ -1,0 +1,21 @@
+{
+  "name": "template-mongoose",
+  "version": "1.0.0",
+  "description": "Template of express app with basic packages and connection with mongodb using best practices",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Zia Ur Rehman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3",
+    "uuid": "^9.0.1"
+  }
+}
